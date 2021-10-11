@@ -117,7 +117,7 @@ Simply run the following command on terminal to watch for the changes.
 dotnet watch run abc 123
 ```
 
-This is similar to using `nodemon`package in NodeJS.
+This is similar to using `nodemon` package in NodeJS.
 
 We can also use VS Code's Run and Debug tab to setup breakpoints and provide command line args and watch for them. But it requires setting up of _launch.json_ and _tasks.json._
 
