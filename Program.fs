@@ -2,13 +2,9 @@
 
 open System
 
-// Define a function to construct a message to print
-let from whom =
-    sprintf "from my %s" whom
-
 [<EntryPoint>]
 let main argv =
-    let message = from "F#" // Call the function
-    printfn "Hello world %s" message
+    let person = argv.[0]
+    printfn "Hello world %s" person
     printfn "The args are %A" argv
     0
