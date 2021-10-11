@@ -109,6 +109,8 @@ let main argv =
     0
 ```
 
+In command line program, a value called `argv` is automatically defined for us as an `array` of `strings`
+
 ### Debugging F# Program
 
 Simply run the following command on terminal to watch for the changes.
@@ -148,4 +150,43 @@ strongly typed
 
 `%s` → strings
 
+`%c` → char
+
 `%i` → int
+
+**Examples of Conditionals**
+
+```fsharp
+open System
+
+[<EntryPoint>]
+let main argv =
+    let mutable person = "Mohammed Zeeshan"
+    if argv.Length > 0 then
+        person <- argv.[0]
+    printfn "Welcome %s" person
+    0
+```
+
+Interesting to notice the following things
+
+- `if` includes a `then` keyword.
+- `mutable` keyword
+- mutable value is reassigned in a very interesting style using `←` (left arrow operator.)
+
+We can avoid using mutable value by binding the value in one go based on the complete if/else expression.
+
+**Better example**
+
+```fsharp
+open System
+
+[<EntryPoint>]
+let main argv =
+    let person = 
+        if argv.Length > 0 then
+            argv.[0]
+        else "Mohammed Zeeshan"
+    printfn "Welcome %s" person
+    0
+```
