@@ -70,6 +70,8 @@ _`=`_ tells that we are finished specifying arguments of the function.
 
 `printfn` is print formatted with a new line.
 
+Reference:
+
 [Formatted text using printf](https://fsharpforfunandprofit.com/posts/printf/)
 
 F# doesn't required a return keyword. It returns what is written in the last line of the function body.
@@ -103,7 +105,7 @@ let from whom =
 let main argv =
     let message = from "F#" // Call the function
     printfn "Hello world %s" message
-    **printfn "The args are %A" argv**
+    printfn "The args are %A" argv
     0
 ```
 
@@ -128,7 +130,7 @@ open System
 
 [<EntryPoint>]
 let main argv =
-    let person = **argv.[0]**
+    let person = argv.[0]
     printfn "Hello world %s" person
     printfn "The args are %A" argv
     0
