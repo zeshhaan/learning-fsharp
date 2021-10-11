@@ -136,7 +136,7 @@ let main argv =
     0
 ```
 
-we are getting the `0th` element of `argv` array and binding it to the name `person`
+> we are getting the `0th` element of `argv` array and binding it to the name `person`
 
 ### Format Specifier
 
