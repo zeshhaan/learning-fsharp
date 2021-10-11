@@ -1,6 +1,6 @@
 # Learning F#
 
-## Get started
+## Getting started
 
 ### Installing
 

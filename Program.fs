@@ -4,7 +4,8 @@ open System
 
 [<EntryPoint>]
 let main argv =
-    let person = argv.[0]
-    printfn "Hello world %s" person
-    printfn "The args are %A" argv
+    let mutable person = "Mohammed Zeeshan"
+    if argv.Length > 0 then
+        person <- argv.[0]
+    printfn "Welcome %s" person
     0
