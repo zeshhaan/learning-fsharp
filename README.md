@@ -74,7 +74,7 @@ Reference:
 
 [Formatted text using printf](https://fsharpforfunandprofit.com/posts/printf/)
 
-F# doesn't required a return keyword. It returns what is written in the last line of the function body.
+> F# doesn't required a return keyword. It returns what is written in the last line of the function body.
 
 ### Signature of the function
 
