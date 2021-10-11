@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UYoy+jvbd3gItciV+uJoKmcLuwWK4EZxH7pKahNoTaFekz61ptY5maZtqbsUE0/2Tu/2QzfClVjqDlDrlbBLXQ==",
+  "success": true,
+  "projectFilePath": "/Volumes/Work/F#/fsharp-notes-basics/fsharp-notes-basics.fsproj",
+  "expectedPackageFiles": [
+    "/Users/Zeeshan/.nuget/packages/fsharp.core/5.0.0/fsharp.core.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
